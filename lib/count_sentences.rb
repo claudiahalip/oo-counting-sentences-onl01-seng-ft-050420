@@ -6,7 +6,7 @@ class String
   
   def sentence?
     
-   return true if self.sentence.end_with?(".")   
+   return true if :sentence.end_with?(".")   
   end
   binding.pry 
   
