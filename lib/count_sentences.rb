@@ -2,11 +2,11 @@ require 'pry'
 
 
 class String
- attr_accessor :sentence
+  
   
   def sentence?
     
-   return true if :sentence.end_with?(".")   
+   return true if self.end_with?(".")   
   end
   binding.pry 
   
