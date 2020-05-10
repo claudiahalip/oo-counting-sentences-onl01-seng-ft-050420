@@ -33,7 +33,7 @@ class String
   end
 
   def count_sentences
-    array = self.split(/[?,!, .]/)
+    array = self.split(/[?,!,.]/)
     count = 0 
     array.each do |word|
       if word.length != 0 
