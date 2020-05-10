@@ -1,8 +1,12 @@
 require 'pry'
 
-class String
 
-  def sentence?
+class String
+  attr_accessor :sentence
+  
+  def sentence? (sentence)
+    
+   return true if self.sentence.end_with?(".")
     
   end
 
