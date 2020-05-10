@@ -8,7 +8,8 @@ class String
     
    return true if self.sentence.end_with?(".")   
   end
-binding.pry 
+  binding.pry 
+  
   def question?
 
   end
