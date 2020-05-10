@@ -39,6 +39,7 @@ class String
       if word.length != 0 
         count += 1 
       end
+    end
     count
       
     
