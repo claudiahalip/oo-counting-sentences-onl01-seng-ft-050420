@@ -7,7 +7,7 @@ class String
   def sentence?
     
    return true if self.sentence.end_with?(".")
-    
+   binding.pry 
   end
 
   def question?
