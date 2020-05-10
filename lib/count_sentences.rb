@@ -2,7 +2,7 @@ require 'pry'
 
 
 class String
- # attr_accessor :sentence
+ attr_accessor :sentence
   
   def sentence?
     
